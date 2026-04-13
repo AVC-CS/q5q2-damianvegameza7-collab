@@ -12,7 +12,11 @@ int main()
 
     cout << N << " to power number: ";
 
-    // TODO
+    int result = 1;
+    for(int i = 0; i <= M; i++) {
+        cout << result << ", ";
+        result *= N;
+    }
 
     cout << endl;
 
