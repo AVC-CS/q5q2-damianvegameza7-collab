@@ -11,9 +11,8 @@ int main()
     cin >> M;
 
     cout << N << " to power number: ";
-
+    int result = 1;
     for(int i = 0; i <= M; i++) {
-        int result = 1;
         cout << result << ", ";
         result *= N;
     }
